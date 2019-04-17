@@ -33,8 +33,9 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
-                             <div class="login-page">
+                            <div id = "modal" class="login-page">
                                 <div class="form">
+                                    <span onclick="document.getElementById('modal').style.display='none'" class="close" title="Close Modal">&times;</span>
                                     <form action="" class="register-form">
                                         <input type="text" placeholder="name"/>
                                         <input type="password" placeholder="password"/>
