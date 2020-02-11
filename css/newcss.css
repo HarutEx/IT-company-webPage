@@ -1,26 +1,45 @@
-
 * {
     box-sizing: border-box;
 }
 
-.navbar-inverse{
+.navbar-inverse {
     background-color: #424242;
     border-color: #000000;
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, p, a{
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
     font-family: "Rajdhani", sans-serif;
 }
 
-.ru{
-    margin-left: -26px; 
-}
-.fa{
-    font-size: 20px;   
+a {
+    text-transform: none;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
 }
 
-ul li span{
+u {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.am {
+    margin-left: -26px;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.lenguage {
     display: inline-block;
     height: 12px;
     line-height: 10px;
@@ -29,74 +48,109 @@ ul li span{
     margin-right: 5px;
     color: white;
 }
-.login-page{
-  width: 360px;
-  padding: 8% 0 0;
-  margin: auto;
+
+.login-page {
+    width: auto;
+    padding: auto;
+    margin: auto;
 }
 
 .form {
-  position: relative;
-  z-index: 1;
-  background: #FFFFFF;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 45px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    position: relative;
+    display: none;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #94a3a8;
+    text-decoration: underline;
+}
+
 .form input {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
+
 .form button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #1fb7e8;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #1fb7e8;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
 }
-.form button:hover,.form button:active,.form button:focus {
-  background: #46c2ec;
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #46c2ec;
 }
+
 .form .message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
 }
+
 .form .message a {
-  color: #1fb7e8;
-  text-decoration: none;
+    color: #1fb7e8;
+    text-decoration: none;
 }
+
 .form .message a:hover {
-  color: #138fb9;
+    color: #138fb9;
 
 }
+
 .form .register-form {
-  display: none;
+    display: none;
 }
 
-.close{
-	position: absolute;
-	right: 13px;
-	top: 8px;
-	font-size: 30px;
+.close {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    font-size: 30px;
 }
-.under-header{
+
+.under-header {
     display: block;
     background: #fff;
     height: 84px;
@@ -106,21 +160,25 @@ ul li span{
     right: 0;
 }
 
-.under-header .container{
+.under-header .container {
     margin-top: -35px;
 }
-.under-header  .navigation ul{
+
+.under-header .navigation ul {
     display: block;
 }
-.col-xs-2{
+
+.col-xs-2 {
     float: left;
 }
-.navigation{
+
+.navigation {
     display: block;
     float: right;
     padding: 40px 0 0;
 }
-.navigation ul li{
+
+.navigation ul li {
     display: inline-block;
     margin: 0px 11px;
     font-weight: 600;
@@ -129,7 +187,8 @@ ul li span{
     white-space: nowrap;
     text-align: -webkit-match-parent;
 }
-.navigation ul li a{  
+
+.page {
     display: inline-block;
     color: #1e1e1e;
     font-size: 16px;
@@ -139,15 +198,17 @@ ul li span{
     background: transparent;
 }
 
-.navigation ul li a:hover{
-    color:  #1fb7e8;
-}
-.bg-primary{
-    background-color: #424242;   
+.page:hover {
+    color: #1fb7e8;
 }
 
-.text-uppercase{
-    font-family: Impact, Charcoal, sans-serif;;
+.bg-primary {
+    background-color: #424242;
+}
+
+.text-uppercase {
+    font-family: Impact, Charcoal, sans-serif;
+    ;
     font-style: initial;
 }
 
@@ -155,11 +216,9 @@ ul li span{
     position: absolute;
     top: 50%;
 }
-.slide{
 
-}
 
-#slider{
+#slider {
     height: auto;
     padding-top: 0px;
     padding-bottom: 30px;
@@ -167,13 +226,15 @@ ul li span{
     background: url(images/gray.jpg) repeat 50% 50%;
     position: relative;
 }
-.carousel-caption{
+
+.carousel-caption {
     width: 370px;
     left: 180px;
     top: 7%;
     text-align: left;
 }
-.carousel-caption h3{
+
+.carousel-caption h3 {
     font-size: 40px;
     font-weight: 300;
     line-height: 56px;
@@ -182,21 +243,22 @@ ul li span{
     margin-top: 14px;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     font-size: 21px;
     color: #7b7b7b;
     line-height: 26px;
     margin-bottom: 40px;
 }
 
-.btn-lg, .btn{    
+.btn-lg,
+.btn {
     padding: 14px 24px;
     font-size: 17px;
     line-height: 1.33;
     border-radius: 10px;
 }
 
-.btn{
+.btn {
     text-shadow: none;
     display: inline-block;
     margin-bottom: 0;
@@ -212,19 +274,20 @@ ul li span{
     transition: all 0.5s ease;
 }
 
-.btn-group, .btn-default{
+.btn-group,
+.btn-default {
     color: #ffffff;
     background-color: transparent;
     border-color: #ffffff;
 }
 
-.carousel-caption a:hover{
+.carousel-caption a:hover {
     background: #1fb7e8;
     color: white;
 }
 
 
-#cty{
+#cty {
     padding: 31px 0 50px;
     background: #1fb7e8;
     position: relative;
@@ -238,13 +301,15 @@ ul li span{
     left: 0;
     right: 0;
     height: 22px;
-    background:url('../images/triangle-white.png') repeat-x 50% 0%;
+    background: url('../images/triangle-white.png') repeat-x 50% 0%;
     background-size: contain;
 }
-#cty .item img{
+
+#cty .item img {
     float: left;
 }
-#cty .item h1{
+
+#cty .item h1 {
     font-weight: 200;
     line-height: 1.2;
     font-size: 28px;
@@ -264,62 +329,71 @@ ul li span{
     color: #000000;
 }
 
-#cty .item p{
+#cty .item p {
     display: inline-block;
 }
 
-.btn-default{
+.btn-default {
     background-color: transparent;
     color: white;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     border-radius: 0;
 }
 
-.number{
+.number {
     font-size: 60px;
-    font-family:  Impact, Charcoal, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-weight: bold;
 }
-.service{
+
+.service {
     display: inline-block;
-    vertical-align: middle;  
+    vertical-align: middle;
 }
+
 .floating-box1 {
     display: inline-block;
     position: absolute;
     text-align: center;
     margin-top: 11px;
 }
+
 .floating-box2 {
     display: inline-block;
     margin-left: 40px;
 }
-.divider{
-    border-bottom:2px solid #000;
+
+.divider {
+    border-bottom: 2px solid #000;
     border-color: #F38181;
     padding-bottom: 10px;
 }
+
 .floating-box3 {
     display: inline-block;
     text-align: left;
 }
+
 .floating-box4 {
     display: inline-block;
     padding-left: 10px;
 }
-.panel panel-default a{
+
+.panel panel-default a {
     text-decoration: none;
 }
-.img-responsive{
+
+.img-responsive {
     transition: .5s ease;
     backface-visibility: hidden;
     opacity: 1;
 }
 
-.info  h4{
+.info h4 {
     font-family: "Noto Sans", sans-serif;
     font-size: 17px;
 }
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -330,7 +404,7 @@ ul li span{
     -ms-transform: translate(-50%, -50%)
 }
 
-.item:hover .img-responsive{
+.item:hover .img-responsive {
     opacity: 0.3;
 }
 
@@ -338,18 +412,20 @@ ul li span{
     opacity: 1;
 }
 
-#cta{
+#cta {
     padding: 31px 0 63px;
     background: #1fb7e8;
     position: relative;
 }
+
 #cta h3 {
     font-size: 30px;
     font-family: cursive;
     margin-bottom: 30px;
     color: #fff;
 }
-.btn-sm{
+
+.btn-sm {
     padding: 11px 42px;
     font-size: 16px;
     line-height: 1.5;
@@ -365,14 +441,15 @@ ul li span{
     left: 0;
     right: 0;
     height: 22px;
-    background:url('../images/triangle.png') repeat-x 50% 0%;
+    background: url('../images/triangle.png') repeat-x 50% 0%;
     background-size: contain;
 }
 
-#sitemap{
+#sitemap {
     background: #2b2b2b;
     padding: 33px 0 30px;
 }
+
 #sitemap h3 {
     font-size: 26px;
     font-weight: 500;
@@ -385,12 +462,12 @@ ul li span{
 #sitemap h3 a {
     color: #fff;
     text-decoration: none;
-    transition: all 0.5s ease;  
+    transition: all 0.5s ease;
     background: transparent;
     cursor: auto;
 }
 
-#sitemap h3 a:hover{
+#sitemap h3 a:hover {
     color: #7A7A7A;
 }
 
@@ -400,7 +477,8 @@ ul li span{
     transition: all 0.5s ease;
     background: transparent;
 }
-#sitemap ul li a:hover{
+
+#sitemap ul li a:hover {
     color: white;
 }
 
@@ -411,29 +489,30 @@ ul li span{
     list-style: none;
 }
 
-#sitemap ul li{
+#sitemap ul li {
     margin: 10px 0;
     font-family: "Noto Sans", sans-serif;
 }
 
-#fooater{
+#fooater {
     background: #000;
     min-height: 100px;
     font-family: "Noto Sans", sans-serif;
 }
 
-.a-footer{
+.a-footer {
     color: #1fb7e8;
     text-decoration: none;
     transition: all 0.5s ease;
     background: transparent;
 }
 
-#fooater p{
+#fooater p {
     margin: 50px 0 0;
     color: #7b7b7b;
 }
-.hiring{
+
+.hiring {
     position: fixed;
     bottom: 0px;
     right: 30px;
@@ -447,11 +526,8 @@ ul li span{
     line-height: 48px;
     border-radius: 6px;
 }
+
 #hiring a:hover {
-    color: white; 
+    color: white;
     background-color: #D32012;
 }
-
-
-
-
