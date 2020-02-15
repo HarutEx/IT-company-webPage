@@ -82,11 +82,6 @@ u {
     z-index: 1000;
 }
 
-
-#comp:hover .dropdown-menu {
-    display: block;
-}
-
 .dropdown-menu li a {
     color: #333;
     clear: both;
@@ -96,6 +91,7 @@ u {
     display: block;
     white-space: nowrap;
 }
+
 
 .dropdown-menu li a:hover {
     background-color: #FFFFFF;
@@ -181,9 +177,6 @@ u {
     margin-top: -35px;
 }
 
-.under-header .navigation ul {
-    display: block;
-}
 
 .col-xs-2 {
     float: left;
