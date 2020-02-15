@@ -504,6 +504,10 @@ u {
     font-family: "Noto Sans", sans-serif;
 }
 
+.info_last:hover{
+    color: white;
+}
+
 #fooater {
     background: #000;
     min-height: 100px;
