@@ -74,7 +74,7 @@ u {
     text-align: left;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #FFFFFF;
     min-width: 160px;
     overflow: auto;
     border-radius: 0;
@@ -98,8 +98,13 @@ u {
 }
 
 .dropdown-menu li a:hover {
+    background-color: #FFFFFF;
     color: #94a3a8;
     text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 .form input {
