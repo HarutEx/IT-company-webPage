@@ -1,6 +1,7 @@
 function show_social() {
    return this;
 }
+
 $(document).ready(function () {
    $("#login1").click(function () {
       $(".form").toggle();
@@ -11,5 +12,8 @@ $(document).ready(function () {
          height: "toggle",
          opacity: "toggle"
       }, "slow");
+   });
+
+   $("#joinus").click(function(){
    });
 });
