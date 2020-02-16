@@ -55,6 +55,10 @@ u {
     margin: auto;
 }
 
+#logo:hover {
+    color: #1FB7E8;
+}
+
 .form {
     position: relative;
     display: none;
@@ -504,7 +508,7 @@ u {
     font-family: "Noto Sans", sans-serif;
 }
 
-.info_last:hover{
+.info_last:hover {
     color: white;
 }
 
